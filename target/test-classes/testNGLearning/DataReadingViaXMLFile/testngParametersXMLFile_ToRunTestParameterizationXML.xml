@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Learning TestNG" parallel = "tests">
+
+  <test name="Chrome Test">
+  <parameter name="url" value="https://www.facebook.com"></parameter>  
+  <parameter name="browser" value="chrome"></parameter>
+    <classes>
+      <class name="testNGLearning.TestParameterizationXML"/>
+    </classes>
+    </test>
+    <test name="Firefox Test">
+  <parameter name="url" value="https://www.facebook.com"></parameter>  
+  <parameter name="browser" value="firefox"></parameter>
+    <classes>
+      <class name="testNGLearning.TestParameterizationXML"/>
+    </classes>
+   
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

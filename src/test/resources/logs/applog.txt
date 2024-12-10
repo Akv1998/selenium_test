@@ -1,0 +1,9 @@
+INFO    2024-11-05 21:54:16,626 [main] testcases.TestProperties  - Test case started!!
+INFO    2024-11-05 21:54:16,635 [main] testcases.TestProperties  - Or properties file loaded
+INFO    2024-11-05 21:54:16,636 [main] testcases.TestProperties  - Config properties file loaded
+INFO    2024-11-05 21:54:23,126 [main] testcases.TestProperties  - Chrome browser launched
+INFO    2024-11-05 21:54:24,784 [main] testcases.TestProperties  - Navigated to https://www.facebook.com/
+INFO    2024-11-05 21:54:24,976 [main] testcases.TestProperties  - Typing in username
+INFO    2024-11-05 21:54:25,248 [main] testcases.TestProperties  - Typing in password
+INFO    2024-11-05 21:54:25,436 [main] testcases.TestProperties  - Clicking on login button
+INFO    2024-11-05 21:54:26,239 [main] testcases.TestProperties  - Test Execution completed!
